@@ -8,4 +8,4 @@ services:
       - "8001:8001"
     command: ["sh", "./start.sh"]
     volumes:
-      - .:/appc
+      - .:/app
